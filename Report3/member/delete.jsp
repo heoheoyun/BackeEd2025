@@ -3,6 +3,7 @@
     import="java.sql.*"  %>
     
 <%
+    request.setCharacterEncoding("utf-8");
     String id = request.getParameter("id");
 
     Class.forName("org.mariadb.jdbc.Driver");
