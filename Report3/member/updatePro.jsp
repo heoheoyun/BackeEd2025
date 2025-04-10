@@ -1,7 +1,8 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"
     import ="java.sql.*" %>
-<%	request.setCharacterEncoding("utf-8");
+<%	
+	request.setCharacterEncoding("utf-8");
 
 	//1. DB 연동 드라이버 로드
 	Class.forName("org.mariadb.jdbc.Driver");
