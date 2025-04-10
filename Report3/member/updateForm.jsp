@@ -2,6 +2,8 @@
     pageEncoding="UTF-8"
     import="java.sql.*" %>
 <% 	
+	request.setCharacterEncoding("utf-8");
+
 	String id = request.getParameter("id");
 
 	//1. DB 연동 드라이버 로드
